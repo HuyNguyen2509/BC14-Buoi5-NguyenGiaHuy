@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <h1>ĐIỂM CHUẨN KỲ TUYỂN SINH</h1>
+    <label for="diemA">Nhập điểm A </label>
+    <input type="text" id="diemA"> <br>
+
+    <label for="diemB">Nhập điểm B </label>
+    <input type="text" id="diemB"> <br>
+
+    <label for="diemC">Nhập điểm C </label>
+    <input type="text" id="diemC"> <br>
+
+    <form action="">
+        <ul>
+            <H3>CHỌN KHU VỰC ƯU TIÊN</H3>
+            <li class="type">
+                <input type="radio" name="selector" id="khuA">
+                <label for="khuA">Khu Vực A: +2 Điểm</label>
+            </li>
+            <li class="type">
+                <input type="radio" name="selector" id="khuB">
+                <label for="khub">Khu Vực B: +1 Điểm</label>
+            </li>
+            <li class="type">
+                <input type="radio" name="selector" id="khuC">
+                <label for="khuC">Khu Vực C: +0.5 Điểm</label>
+            </li>
+        </ul>
+    </form>
+    <ul>
+        <H3>CHỌN ĐỐI TƯỢNG ƯU TIÊN</H3>
+        <li class="type">
+            <input type="radio" name="selector" id="doiTuong1">
+            <label for="doiTuong1">Đối Tượng 1: +2.5 Điểm</label>
+        </li>
+        <li class="type">
+            <input type="radio" name="selector" id="doiTuong2">
+            <label for="doiTuong2">Đối Tượng 2: +1.5 Điểm</label>
+        </li>
+        <li class="type">
+            <input type="radio" name="selector" id="doiTuong3">
+            <label for="doiTuong3">Đối Tượng 3: +1 Điểm</label>
+        </li>
+    </ul>
+
+    <button id="tinhDiem">Tính Điểm</button>
+
+    <div id="divHienThi" style="display: none;">
+
+    </div>
+
+    <script src="./js/xeloaiHS.js"></script>
+</body>
+
+</html>
