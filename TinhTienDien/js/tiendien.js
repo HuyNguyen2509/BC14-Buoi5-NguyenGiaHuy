@@ -7,6 +7,7 @@ function hienThi() {
 
     pEL.innerHTML = "Tổng tiền điện: " + tongTien;
 
+    divHienThi.innerHTML = "";
     divHienThi.appendChild(pEL);
     divHienThi.style.display = 'block';
 }
